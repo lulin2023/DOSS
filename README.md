@@ -7,7 +7,22 @@ one encounters a possibly infinite sequence of individuals collected by time wit
 
 ## Folder contents
 
-- [R](R): Function definitions
-- [man](man): Package documentation files
-- [Experiments_codes](Experiments_codes): 
+- **R**: Function definitions
+- **man**: Package documentation files
+- **Experiments codes**: The codes to reproduce the experiments results in the paper.
+- **data set**: Two real data sets in application.
+
+## Installing the DOSS package
+
+We can use `devtools` to install the `DOSS` package.
+
+```
+# Install and load devtools
+install.packages("devtools")
+library(devtools)
+
+# Install and load ConformalTwoLayer
+devtools::install_github("lulin2023/DOSS")
+library(DOSS)
+```
 
