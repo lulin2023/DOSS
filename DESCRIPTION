@@ -1,0 +1,37 @@
+Package: DOSS
+Type: Package
+Title: Diversified Online Sample Selection via Predictive Inference
+Version: 0.1.0
+Authors@R: c(
+    person("Lin", "Lu", email = "lulin1999@mail.nankai.edu.cn", role = c('aut','cre')),
+    person("Yuyang", "Huo", email = "hyynk@gmail.com", role = "aut"))
+Maintainer: Lin Lu <lulin1999@mail.nankai.edu.cn>
+Description: This R package carries out the DOSS online sample selection procedure in Diversified Online Sample Selection via Predictive Inference (2023).
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Imports:
+        MASS,
+        ks,
+        kernlab,
+        randomForest,
+        foreach,
+        reshape2,
+        ggplot2,
+        caret,
+        nnet,
+        ggpubr,
+        tidyverse,
+        kedd,
+        pbmcapply,
+        onlineFDR,
+        parallel,
+        magrittr,
+        latex2exp,
+        ggsci,
+        lsa
+RoxygenNote: 7.2.1
+VignetteBuilder: knitr
+Suggests: 
+    knitr,
+    rmarkdown
