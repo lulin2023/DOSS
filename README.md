@@ -21,7 +21,7 @@ We can use `devtools` to install the `DOSS` package.
 install.packages("devtools")
 library(devtools)
 
-# Install and load ConformalTwoLayer
+# Install and load DOSS
 devtools::install_github("lulin2023/DOSS")
 library(DOSS)
 ```
