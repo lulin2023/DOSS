@@ -1,5 +1,5 @@
 # DOSS Repository Overview
-This repository contains the codes to reproduce the experiments results in *Diversified Online Sample Selection via Predictive Inference (2023)* by Yuyang Huo, Lin Lu, Haojie Ren and Changliang Zou.
+This repository contains the codes to reproduce the experiments results in *Diversified Online Sample Selection via Predictive Inference (2023)*.
 
 ## Introduction of DOSS
 Real-time decision making gets more attention in the big data era. Here, we consider the problem of sample selection in the online setting, where
